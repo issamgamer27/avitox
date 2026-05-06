@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Inter:wght@400;500;600;700;800&family=Rajdhani:wght@500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #111111;
+  --bg-tertiary: #1a1a1a;
+  --bg-card: #141414;
+  --accent-gold: #C9A040;
+  --accent-gold-2: #FFD700;
+  --accent-silver: #C0C0C0;
+  --text-primary: #F5F5F5;
+  --text-secondary: #A0A0A0;
+  --text-muted: #666666;
+  --border: #2a2a2a;
+  --border-gold: rgba(201,160,64,0.3);
+  --gradient-gold: linear-gradient(135deg, #C9A040, #FFD700, #C9A040);
+  --gradient-silver: linear-gradient(135deg, #A0A0A0, #F5F5F5, #A0A0A0);
+  --gradient-cta: linear-gradient(135deg, #C9A040, #a07820);
+  --gradient-bg: linear-gradient(135deg, #0a0a0a, #111111);
+  --shadow-gold: 0 0 20px rgba(201,160,64,0.15);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--gradient-bg);
+  color: var(--text-primary);
+  font-family: 'Inter', 'Cairo', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Rajdhani', 'Cairo', sans-serif;
+}
